@@ -48,6 +48,7 @@ public class MenuActivity extends AppCompatActivity {
         listaDeMenus.add("Sopa Huantan");
         listaDeMenus.add("Cebiche");
         listaDeMenus.add("Papa a la Huancaina");
+        listaDeMenus.add("Chupe de papas");
 
         ArrayAdapter adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,listaDeMenus);
         binding.ListViewMenu.setAdapter(adapter);
